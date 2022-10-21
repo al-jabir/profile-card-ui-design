@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #e2ca75, #ff5ab2);
+}
+.card {
+  position: relative;
+  width: 350px;
+  height: 190px;
+  background: #fff;
+  transition: 0.6s;
+}
+
+.card:hover {
+  height: 450px;
+}
+
+.card-img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  border-radius: 10px;
+  left: 50%;
+  top: -50%;
+  transform: translateX(-50%);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+}
